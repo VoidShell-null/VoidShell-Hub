@@ -173,7 +173,7 @@ function Http:IsALogger(Url: string, Body): boolean
     return false
 end
 
-local function FakeIP(v6, private)
+local function FakeIP(v6: boolean, private: boolean): string
     if v6 then
         return "fd00:"..string.format("%x:%x:%x:%x:%x:%x:%x", 
             Math.random(0,0xffff), Math.random(0,0xffff), Math.random(0,0xffff), 
@@ -269,8 +269,7 @@ function Http:SanitizeResponse(Response : string, Url : string, OriginalHeaders 
 	local IPv4, IPv6 = FakeIP(), FakeIP(true)
 
 	Sanitized = Sanitized:gsub("%d+%.%d+%.%d+%.%d+", IPv4)
-	Sanitized = Sanitized:gsub("[%x:]+::[%x:]+", IPv6)
-	Sanitized = Sanitized:gsub("[%x]+:[%x]+:[%x]+:[%x]+:[%x]+:[%x]+:[%x]+:[%x]+", IPv6)
+	Sanitized = Sanitized:gsub("%x+:%x+:%x+:%x+:%x+:%x+:%x+:%x+", IPv6)
 
 	local Success, Decoded = pcall(function()
 		return HttpService:JSONDecode(Response)
