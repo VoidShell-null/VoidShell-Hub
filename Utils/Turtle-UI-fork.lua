@@ -10,8 +10,15 @@ local destroyed
 
 local colorPickers = {}
 
-if game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild('TurtleUiLib') then
-    game.Players.LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild('TurtleUiLib'):Destroy()
+local cloneref = cloneref or clone_reference or clone_ref or (cache and (cache.clone_reference or cache.clonereference or cache.cloneref))
+local Service = setmetatable({}, {
+	__call = function(Null, key)
+		return (cloneref or function(Service) return Service end)(game.GetService(game, key))
+	end
+})
+
+if Service('Players').LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild('TurtleUiLib') then
+    Service('Players').LocalPlayer:WaitForChild("PlayerGui"):FindFirstChild('TurtleUiLib'):Destroy()
     destroyed = true
 end
 
@@ -19,10 +26,10 @@ function Lerp(a, b, c)
     return a + ((b - a) * c)
 end
 
-local players = game:service('Players');
+local players = Service('Players');
 local player = players.LocalPlayer;
 local mouse = player:GetMouse();
-local run = game:service('RunService');
+local run = Service('RunService');
 local stepped = run.Stepped;
 function Dragify(obj)
 	spawn(function()
@@ -58,18 +65,18 @@ end
 local hiddenUI = hiddenUI or gethui or get_hidden_gui
 local function protect_gui(obj) 
 if destroyed then
-   obj.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+   obj.Parent = Service('Players').LocalPlayer:WaitForChild("PlayerGui")
    return
 end
 if syn and syn.protect_gui then
 syn.protect_gui(obj)
-obj.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+obj.Parent = Service('Players').LocalPlayer:WaitForChild("PlayerGui")
 elseif PROTOSMASHER_LOADED then
 obj.Parent = get_hidden_gui()
 elseif hiddenUI then
 obj.Parent = hiddenUI()
 else
-obj.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+obj.Parent = Service('Players').LocalPlayer:WaitForChild("PlayerGui")
 end
 end
 local TurtleUiLib = Instance.new("ScreenGui")
@@ -80,7 +87,7 @@ protect_gui(TurtleUiLib)
 
 local xOffset = 20
 
-local uis = game:GetService("UserInputService")
+local uis = Service("UserInputService")
 
 local keybindConnection
 
