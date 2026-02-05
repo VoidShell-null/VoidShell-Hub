@@ -1,3 +1,13 @@
+--[[
+roblox crypt library by daily3014
+bundled using darklua by nullspecter.
+original source: https://github.com/daily3014/rbx-cryptography/tree/main/src
+original docs: https://xoifaii.github.io/docs/intro
+
+LICENSE: MIT
+
+]]
+
 type HashFunction__DARKLUA_TYPE_a=(...any)->(string,buffer)type
 EntropyProvider__DARKLUA_TYPE_b=(BytesLeft:number)->buffer?type
 CSPRNGModule__DARKLUA_TYPE_c={BlockExpansion:boolean,SizeTarget:number,
