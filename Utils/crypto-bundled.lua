@@ -8,6 +8,10 @@ LICENSE: MIT
 
 ]]
 
+--!native
+--!strict
+--!optimize 2
+
 type HashFunction__DARKLUA_TYPE_a=(...any)->(string,buffer)type
 EntropyProvider__DARKLUA_TYPE_b=(BytesLeft:number)->buffer?type
 CSPRNGModule__DARKLUA_TYPE_c={BlockExpansion:boolean,SizeTarget:number,
