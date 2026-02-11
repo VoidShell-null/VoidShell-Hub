@@ -52,7 +52,7 @@ Relies on `getproperties`. If your executor doesn't have it, this won't work.
 
 ## initialize
 ```luau
-local InstanceToLuaModule = loadstring(game:HttpGet(""))()
+local InstanceToLuaModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidShell-null/VoidShell-Hub/refs/heads/main/Utils/InstanceToLua.lua"))()
 local converter = InstanceToLuaModule.new()
 ```
 
