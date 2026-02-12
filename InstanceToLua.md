@@ -172,7 +172,7 @@ converter.UseCache = true
 ```
 
 
-- Streaming
+- Streaming , u can see the code while getting generated through message, `function InstanceToLuaModule:callback(formatted, message, type)`
 ```luau
 --// Streaming but will make conversion slightly longer, Default to false
 converter.Stream = true
