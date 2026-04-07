@@ -8,7 +8,7 @@ local scripts = {
     ["9791603388"] = "https://raw.githubusercontent.com/VoidShell-null/VoidShell-Hub/refs/heads/main/Scripts/SwordFightAura.luau",
     ["119564951960102"] = "https://raw.githubusercontent.com/VoidShell-null/VoidShell-Hub/refs/heads/main/Scripts/Pass_or_DIe.lua",
     ["123741668193208"] = "https://gist.githubusercontent.com/Bwhw827g29wh/84e8ba08f520682a4de508c19121ec34/raw/4e34921858e5fc5af1999e7650cb85d3db6d2f29/The%2520$1M%2520Jump%2520Rope.txt",
-    ["6104994594"] = "https://raw.githubusercontent.com/Bwhw827g29wh/Scripts/refs/heads/main/Pilfering%20Pirate.lua",
+    ["6104994594"] = "https://raw.githubusercontent.com/VoidShell-null/VoidShell-Hub/refs/heads/main/Scripts/Pilfering%20Pirates.luau",
 }
 
 local placeId = tostring(game.PlaceId)
