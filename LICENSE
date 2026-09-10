@@ -1,193 +1,21 @@
-VOIDSHELL LICENSE
+MIT License
 
-Copyright (c) 2026, nullspecter (VoidShell)
+Copyright (c) 2026 NullSpecter
 
-All rights reserved.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-THIS PRODUCT IS PROVIDED "AS IS" WITHOUT ANY KIND OF WARRANTY. THE COPYRIGHT 
-HOLDER AND CONTRIBUTORS SHALL NOT BE LIABLE FOR ANY DAMAGES ARISING FROM THE 
-USE OF THIS SOFTWARE, EVEN IF THEY ARE AWARE OF THE POSSIBILITY OF DAMAGES. 
-THE USER OF THIS SOFTWARE WILL BE LIABLE FOR ANY DAMAGES CAUSED.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-The user, by using, redistributing, or showcasing this project, acknowledges 
-and agrees to all the following:
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# DEFINITIONS
-
-- VOIDSHELL SCRIPT: Any script file provided by VoidShell, including but not 
-  limited to game-specific scripts, utilities, and libraries.
-
-- CONFIGURATION FILE: A custom configuration or settings file for VoidShell 
-  scripts using the shared scripting API.
-
-- LOADSTRING: A single line of code that fetches and initializes a VoidShell 
-  script from the official repository, such as:
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidShell-null/VoidShell/main/script.lua"))()
-
-- REDISTRIBUTION: Distributing the source code of this project, any source 
-  code dependent on this project, or modified versions thereof, excluding 
-  the loadstring and configuration files.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# TERMS AND CONDITIONS
-
-1. PERSONAL USE
-   You MAY use VoidShell scripts for personal use without restriction.
-
-2. CONFIGURATION FILES
-   You MAY create your own configuration files for personal use.
-   You are NOT allowed to share configuration files unless you meet the 
-   conditions specified in this license.
-
-3. SHARING CONFIGURATIONS
-   If you would like to share your configuration file, you MUST:
-   a. Contact the developer (nullspecter) for approval
-   b. Have it uploaded to the official VoidShell repository
-   Your configuration MAY NOT be shared anywhere else unless explicitly 
-   allowed by the maintainer.
-
-4. MODIFICATION
-   You MAY edit scripts for ONLY personal usage.
-   You may NOT share modified versions of VoidShell scripts.
-
-5. CREDIT REQUIREMENT
-   You MUST always include the following credit:
-   "VoidShell by nullspecter - [Official Link/Discord]"
-
-6. AUTHORSHIP
-   You are NOT allowed to claim authorship of any VoidShell source code.
-
-7. LICENSE INCLUSION
-   You MUST always include this License with any use or distribution of 
-   the software.
-
-8. LOADSTRING USAGE
-   You MAY share the loadstring (single line loader) provided that:
-   a. It points to the official VoidShell repository
-   b. Proper credit is given
-   c. This license is referenced
-
-9. REDISTRIBUTION CONDITIONS
-   Redistribution and use of this project, with or without modification, 
-   are permitted ONLY if the following conditions are met:
-
-   a. Redistribution of source code must retain the copyright notice, 
-      this list of conditions, and the disclaimer.
-
-   b. Neither the name of the copyright holder nor the names of contributors 
-      may be used to endorse or promote products derived from this software 
-      without specific prior written permission.
-
-   c. This software may be showcased ONLY using the original, unmodified 
-      version from the official VoidShell repository.
-
-   d. Showcasing modified versions (e.g., forks with additional features) 
-      is considered unauthorized.
-
-10. CONTENT CREATION
-    Displaying this software on platforms including but not limited to 
-    YouTube, TikTok, or streaming services requires:
-    a. Proper credit to VoidShell and nullspecter
-    b. Link to official source (Discord/GitHub)
-    c. Clear statement that the script is free
-    
-    Claiming the script as your own is strictly prohibited.
-
-11. COMMERCIAL USE
-    Unauthorized selling or redistribution of this software for profit is 
-    strictly prohibited.
-    
-    This includes but is not limited to:
-    - Selling the script
-    - Selling access to the script
-    - Requiring payment for "premium" versions
-    - Monetizing content that claims ownership
-
-12. PLATFORM RESTRICTIONS
-    Redistribution of this project on any platform other than the official 
-    VoidShell repository constitutes a breach of terms and may result in:
-    a. DMCA takedown requests
-    b. Legal action
-    c. Permanent ban from VoidShell services
-
-13. FORKING
-    Forking this project on GitHub is permitted ONLY if:
-    a. The fork complies with this license agreement
-    b. Clear attribution to the original project is maintained
-    c. The fork is not presented as an official VoidShell project
-
-14. AUTHORIZED SHOWCASING
-    If you redistribute or showcase this project, you must:
-    a. Be listed as an authorized individual (see below), OR
-    b. Have explicit written permission from nullspecter, OR
-    c. Follow all terms in section 10 (Content Creation)
-
-15. SECURITY AND PRIVACY
-    You may NOT:
-    a. Add malicious code or logging to VoidShell scripts
-    b. Use VoidShell scripts to collect user data without consent
-    c. Modify scripts to compromise user security or privacy
-
-16. OBFUSCATION AND PROTECTION
-    You may NOT:
-    a. Remove or bypass security measures in VoidShell scripts
-    b. Deobfuscate protected code for redistribution
-    c. Claim deobfuscated or modified code as your own work
-
-17. SUPPORT AND LIABILITY
-    The developer provides scripts "as is" with no guarantee of:
-    a. Continued updates or support
-    b. Compatibility with future Roblox updates
-    c. Freedom from bugs or errors
-    
-    Users assume all risk when using VoidShell scripts.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# AUTHORIZED INDIVIDUALS
-
-The following individuals are currently authorized to showcase, redistribute, 
-or create derivative works:
-
-- nullspecter - @nullspecter. (Developer/Founder)
-- jack @dudndhjfn (Admin/Manager)
-
-To become an authorized individual, you must:
-1. Make significant contributions to VoidShell
-2. Receive explicit approval from nullspecter
-3. Be added to this list in the official license
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# DISCLAIMER
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
-ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
-CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
-SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
-INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
-CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
-ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF 
-THE POSSIBILITY OF SUCH DAMAGE.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-# CONTACT
-
-For permissions, questions, or to report violations:
-- Discord: https://discord.gg/U2nvFRa8zQ
-- GitHub: https://github.com/VoidShell-null/VoidShell
-- Contact: @nullspecter. or voidshell.null@gmail.com
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-By using this product, you accept these terms.
-
-Last Updated: 1/5/2026 
-Version: 1.0
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
